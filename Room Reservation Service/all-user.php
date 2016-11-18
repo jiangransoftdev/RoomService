@@ -110,7 +110,7 @@ else
 			<?php
 
 
-$con = mysqli_connect('localhost','root','','reservation');
+$con = mysqli_connect('localhost','root','root','finalproject');
 if (!$con) {
 
   die('Could not connect: ' . mysqli_error($con));
